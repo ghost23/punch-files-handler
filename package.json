@@ -1,0 +1,25 @@
+{
+  "name": "punch-files-handler",
+  "version": "0.0.1",
+  "description": "This is a content handler for the website generation tool punch. It allows for files being put into the content folder and be copied into the output directory.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ghost23/punch-files-handler.git"
+  },
+  "keywords": [
+    "punch",
+    "content",
+    "files",
+    "deploy"
+  ],
+  "author": "Sven Busse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ghost23/punch-files-handler/issues"
+  },
+  "homepage": "https://github.com/ghost23/punch-files-handler"
+}
