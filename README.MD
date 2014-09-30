@@ -2,6 +2,10 @@
 This plugin allows you to put file folders into your content directory, in order for those files to be deployed
 to your output directory.
 
+Install via
+
+	npm install punch-files-handler
+
 In order to use this, you must add these things to your punch config:
 
 	"files_dir": ["images", "videos"],
