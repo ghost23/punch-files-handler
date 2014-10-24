@@ -363,7 +363,7 @@ module.exports = {
                         if (shared_modified_date > last_modified) {
                             last_modified = shared_modified_date;
                         }
-						Fs.writeFileSync(Path.join(self.contentDir, basePath + ".json"), JSON.stringify(collected_contents), {encoding: "utf8"});
+						Fs.writeFileSync(Path.join(self.outputDir, "json", basePath + ".json"), JSON.stringify(collected_contents), {encoding: "utf8"});
                     }
 
                     return run_callback();
