@@ -1,4 +1,5 @@
 #Content handler plugin for punch site generation tool
+*This plugin is no longer meant to be generic. It is used in a special project and does very individual things.*
 This plugin allows you to put file folders into your content directory, in order for those files to be deployed
 to your output directory.
 
